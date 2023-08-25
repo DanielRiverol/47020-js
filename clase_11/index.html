@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Clase 11 | Comisión 47020</title>
+  </head>
+  <body>
+    <h1 id="titulo"><span>Clase 11</span></h1>
+    <hr />
+    <h2 id="secundario">LocalStorage & JSON</h2>
+
+    <main>
+      <label for="ingreso">Buscar servicio</label>
+      <input type="text" name="ingreso" id="ingreso" autofocus />
+
+      <button id="btnSearch" class="btn btn-search">buscar</button>
+      <!-- Acá se pinta la card -->
+      <div id="contenedor" class="contenedor">
+        <!-- contenido dinámico -->
+      </div>
+      <button class="btn btn-buscar">mostrar carrito</button>
+      <button class="btn btn-limpiar">limpiar carrito</button>
+
+      <h2>Formulario</h2>
+      <form id="form-login">
+        <input type="text" placeholder="Usuario" id="user" />
+        <input type="password" placeholder="Password" id="pass" />
+        <div class="check">
+          <label for="check">Recordar</label>
+          <input type="checkbox" id="check" />
+          <p id="message"></p>
+        </div>
+        <input type="submit" class="btn btn-login" value="Ingresar" />
+      </form>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

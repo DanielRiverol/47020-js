@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    padding: 10px 0;
+}
+
+h1 span {
+    font-size: 2.5rem;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #eaff6a;
+    padding: 0 0.4rem;
+    font-weight: 700;
+}
+
+h2 {
+    margin: 15px 0 30px 0;
+}
+
+main, ul {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+form {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1.4px solid rgb(68, 134, 209);
+    border-radius: 5px;
+}
+
+form input {
+    padding: 3px;
+    font-size: 1.025rem;
+}
+
+.contenedor {
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.btn {
+    width: 90px;
+    height: 25px;
+    border: none;
+    background-color: transparent;
+    border-radius: 4px;
+    font-size: 1.025rem;
+    text-transform: capitalize;
+}
+
+.btn-search, .btn-buscar {
+    background-color: rgb(68, 209, 68);
+    width: 130px;
+}
+
+.btn-delete {
+    background-color: rgb(215, 63, 24);
+    color: white;
+}
+
+.btn-login {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(68, 134, 209);
+    color: white;
+}
+
+
+.box {
+    background-color: #eaff6a;
+    padding: 40px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 3px 1px 20px -2px rgba(0, 0, 0, 0.44);
+    -webkit-box-shadow: 3px 1px 20px -2px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 3px 1px 20px -2px rgba(0, 0, 0, 0.44);
+}
+
+.caja {
+    width: 550px;
+    height: 368px;
+    background-color: yellow;
+    background-size: cover;
+    border: 15px rgb(253, 233, 12) solid;
+    padding: 50px;
+    margin: 100px;
+
+}
+
+img {
+    width: 200px;
+    height: 200px !important;
+    object-fit: cover;
+}
+
+.card {
+    margin-top: 10px;
+    padding: 5px;
+    width: 250px;
+    border: 1px solid #777;
+    border-radius: 5px;
+
+}
+
+.card h3 {
+    text-transform: capitalize;
+}
+
+.card-action {
+    max-width: 100%;
+}
